@@ -31,6 +31,7 @@ public class App extends Application {
         System.out.println("ciao");
         timer.start();
 
+        //Commento
         stage.setScene(new Scene(root, 800, 600));
         stage.setTitle("Dino game");
         stage.show();
