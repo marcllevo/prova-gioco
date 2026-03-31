@@ -28,10 +28,11 @@ public class App extends Application {
                 gc.drawImage(img,24,24,24,24,0,0,100,100);
             }
         };
+        System.out.println("ciao");
         timer.start();
 
         stage.setScene(new Scene(root, 800, 600));
-        stage.setTitle("Dino Game");
+        stage.setTitle("Dino game");
         stage.show();
     }
 
